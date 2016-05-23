@@ -1,0 +1,1592 @@
+/* BACC Custom CSS for Avada theme */
+
+/* FOR APP */
+
+html[data-useragent*="imagine"] .fusion-header-wrapper {
+    display: none !important;
+}
+
+html[data-useragent*="imagine"] #find-hero {
+    display: none !important;
+}
+
+html[data-useragent*="imagine"] #getconnected {
+    display: none !important;
+}
+
+html[data-useragent*="imagine"] #findaservice-map {
+    display: none !important;
+}
+
+html[data-useragent*="imagine"] .fusion-footer {
+    display: none !important;
+}
+
+/*
+html[data-useragent*="imagine"] #wherewemeet {
+    padding-left: 30px;
+    padding-right: 30px
+}
+*/
+
+html[data-useragent*="imagine"] .fusion-section-separator.section-separator {
+    display: none !important;
+}
+
+html[data-useragent*="imagine"] .addthis-smartlayers {
+    display: none !important;
+}
+
+/* END APP */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, h6 { 
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+font-style: normal !important;
+}
+
+.fusion-page-title-bar h1 {
+    font-weight: 900;
+    font-size: 9em;
+}
+
+.page h1 {
+    font-weight: 900;
+    font-size: 5em;
+    line-height: 1em;
+}
+
+.single h2 {
+    font-size: 2.5em !important;
+    letter-spacing: -0.025em;
+    line-height: 1.12em !important;
+    font-weight: 700 !important;
+}
+
+.page h2 {
+    font-size: 2.5em !important;
+    font-weight: 900 !important;
+    line-height: 1.5em;
+}
+
+h2.content-box-heading {
+    font-size: 1.5em !important;
+    font-weight: 700 !important;
+}
+
+/* This is for the blog posts in a feed */
+
+.page h2.entry-title {
+    font-size: 1.3em !important;
+    font-weight: 700 !important;
+    line-height: 1.3em !important;
+    text-align: center !important;
+}
+
+#posts-container h2.entry-title {
+    font-size: 1.2em !important;
+    font-weight: 700 !important;
+    line-height: 1.2em !important;
+}
+
+.fusion-single-line-meta a:hover {
+    color: #000000 !important;
+}
+
+p.fusion-single-line-meta {
+    text-align: center !important;
+}
+
+.fusion-post-content-wrapper {
+    background-color: #ffffff !important;
+}
+
+.fusion-post-content-container p {
+    color: #777777 !important;
+}
+
+.fusion-post-wrapper {
+    border: none !important;
+}
+
+.category div#main {
+    background-color: #f5f6fa !important;
+}
+
+.category h2.entry-title {
+    text-align: center !important;
+}
+
+.category .meta-tags {
+    display: none !important;
+}
+
+.tag div#main {
+    background-color: #f5f6fa !important;
+}
+
+.tag h2.entry-title {
+    text-align: center !important;
+}
+
+.tag .meta-tags {
+    display: none !important;
+}
+
+.search div#main {
+    background-color: #f5f6fa !important;
+}
+
+.search #sidebar {
+    background-color: #f5f6fa !important;
+}
+
+.search h2.entry-title {
+    text-align: center !important;
+}
+
+.search .meta-tags {
+    display: none !important;
+}
+
+.fusion-post-content-wrapper {
+    box-shadow: 0 2px 1px rgba(0,0,0,.08) !important;
+}
+
+#blog-hero-search input.s {
+    height: 50px !important;
+    font-size: 1.3em !important;
+    font-famiy: &amp;quot;proxima-nova&amp;quot;, Helvetica, sans-serif !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2) !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#blog-page-feed .fusion-post-content-wrapper {
+    background-color: #ffffff !important;
+}
+
+#blog-page-feed .fusion-post-content-wrapper {
+    box-shadow: 0 2px 1px rgba(0,0,0,.08) !important;
+}
+
+#blog-page-feed .fusion-button {
+    font-size: 10px !important;
+    padding: 10px !important;
+}
+    
+#blog-page-feed h2.content-box-heading {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 28px !important;
+}
+
+#blog-page-feed .content-box-column-3 h2, #blog-page-feed .content-box-column-5 h2, #blog-page-feed .content-box-column-6 h2 {
+    line-height: 17px !important;
+}
+
+#blog-subnav .content-box-column-1 h2:hover {
+    color: #26313B !important;
+}
+
+#blog-subnav .content-box-column-1 .link-area-link-icon-hover i {
+    color: #26313B !important;
+}
+
+#blog-subnav .content-box-column-1 .link-area-link-icon-hover h2 {
+    color: #26313B !important;
+}
+
+#blog-subnav .content-box-column-1 i:hover {
+    color: #26313B !important;
+}
+
+#blog-subnav .content-box-column-2 h2:hover {
+    color: #0097D0 !important;
+}
+
+#blog-subnav .content-box-column-2 .link-area-link-icon-hover i {
+    color: #0097D0 !important;
+}
+
+#blog-subnav .content-box-column-2 .link-area-link-icon-hover h2 {
+    color: #0097D0 !important;
+}
+
+#blog-subnav .content-box-column-2 i:hover {
+    color: #0097D0 !important;
+}
+
+#blog-subnav .content-box-column-3 h2:hover {
+    color: #FB6D00 !important;
+}
+
+#blog-subnav .content-box-column-3 .link-area-link-icon-hover i {
+    color: #FB6D00 !important;
+}
+
+#blog-subnav .content-box-column-3 .link-area-link-icon-hover h2 {
+    color: #FB6D00 !important;
+}
+
+#blog-subnav .content-box-column-3 i:hover {
+    color: #FB6D00 !important;
+}
+
+#blog-subnav .content-box-column-4 h2:hover {
+    color: #87597F !important;
+}
+
+#blog-subnav .content-box-column-4 .link-area-link-icon-hover i {
+    color: #87597F !important;
+}
+
+#blog-subnav .content-box-column-4 .link-area-link-icon-hover h2 {
+    color: #87597F !important;
+}
+
+#blog-subnav .content-box-column-4 i:hover {
+    color: #87597F !important;
+}
+
+#blog-subnav .content-box-column-5 h2:hover {
+    color: #EF384D !important;
+}
+
+#blog-subnav .content-box-column-5 .link-area-link-icon-hover i {
+    color: #EF384D !important;
+}
+
+#blog-subnav .content-box-column-5 .link-area-link-icon-hover h2 {
+    color: #EF384D !important;
+}
+
+#blog-subnav .content-box-column-5 i:hover {
+    color: #EF384D !important;
+}
+
+#blog-subnav .content-box-column-6 h2:hover {
+    color: #B4D145 !important;
+}
+
+#blog-subnav .content-box-column-6 .link-area-link-icon-hover i {
+    color: #B4D145 !important;
+}
+
+#blog-subnav .content-box-column-6 .link-area-link-icon-hover h2 {
+    color: #B4D145 !important;
+}
+
+#blog-subnav .content-box-column-6 i:hover {
+    color: #B4D145 !important;
+}
+
+/*
+#blog-subnav .fusion-content-boxes {
+    margin-bottom: 20px !important;
+}
+*/
+
+/* END Blog feed */
+
+
+/* PLUGIN: The Grid */
+
+.grid-bacc-blog {
+    line-height: 1em;
+}
+
+.tg-item-read-more a {
+    border-radius: 20px !important;
+}
+
+p.tg-item-excerpt {
+    font-size: 1em !important;
+}
+
+
+/* This is for the blog post title on the post itself */
+
+.portfolio-one-sidebar h2.entry-title {
+    font-size: 2.5em !important;
+    line-height: 1.3em !important;
+    font-weight: 700 !important;
+}
+
+h2.entry-title a {
+color: #26313B !important;
+}
+
+h2.entry-title a:hover {
+    color: #0097D0 !important;
+}
+
+div.heading.heading-and-icon h2 {
+font-size: 28px !important;
+}
+
+
+/* For Related Posts */
+
+/*
+h2.title-heading-left {
+    font-size: 2.25em !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.015em;
+}
+*/
+
+h4.fusion-carousel-title {
+    font-weight: 700;
+    font-size: 1em; 
+}
+
+h4.fusion-carousel-title a {
+    color: #26313B !important;
+}
+
+h4.fusion-carousel-title a:hover {
+    color: #0097D0 !important;
+}
+
+.post-content h3 {
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+font-weight: 700 !important;
+font-size: 1.5em !important;
+line-height: 1.5em !important;
+}
+
+.title h3 {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+font-weight: 700 !important;
+font-style: normal !important;
+font-size: 1.5em !important;
+}
+
+#sidebar .widget h3, #sidebar .widget .heading h3 {
+font-size: 1.2em !important;
+font-weight: 700 !important;
+line-height: 1.5em;
+}
+
+h4.widget-title {
+    font-weight: 700 !important;
+    font-size: 1.2em !important;
+}
+
+h3.author_title {
+font-size: 36px !important;
+}
+
+.footer-area h3 {
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+font-weight: 600 !important;
+}
+
+.post-content h4 {
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+font-weight: 700 !important;
+font-size: 1.2em !important;
+line-height: 1.5em;
+}
+
+.recent-posts-content h4 {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.1em !important;
+    font-size: 1.2em !important;
+}  
+
+.recent-posts-content h4 a {
+    color: #26313B;
+}
+
+.recent-posts-content h4 a:hover {
+    color: #0097D0 !important;
+}
+
+.post-content h5 {
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+font-weight: 700 !important;
+font-size: 1em !important;
+line-height: 1.5em;
+}
+
+
+/* BLOG POSTS */
+
+/*
+#wrapper .page-title h1 {
+font-size: 3.25em;
+line-height: normal;
+font-weight: 300;
+letter-spacing: -0.015em;
+}
+*/
+
+.fusion-page-title-bar h3 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #A6ABAF !important;
+}
+
+.fusion-page-title-bar {
+    background-color: #ffffff;
+}
+
+.page-title-container {
+height: 100%;
+padding-bottom: 3%;
+padding-top: 3%;
+}
+
+.at-above-post.addthis-toolbox {
+margin-bottom: 20px;
+}
+
+
+.related-posts.single-related-posts {
+    margin-bottom: 50px;
+}
+
+.fusion-carousel-title a:hover {
+    color: 26313B !important;
+}
+
+.single .post-content {
+    /*font-family: "freight-text-pro", Georgia, serif !important;*/
+    color: rgba(0,0,0,0.8) !important;
+    font-size: 18px !important;
+    line-height: 1.58em !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/** BLOG POST - no sidebar */
+
+/** Exclude event posts **/
+
+#tribe-events-content .related-posts {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#tribe-events-content .fusion-sharing-box {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#event-content .single {
+    font-family: "proxima-nova", Helvetia, sans-serif !important;
+}
+
+/** Desktop **/
+@media only screen and (min-width: 1224px) {
+
+    .single li.flex-active-slide {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .single h2 {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .single .post-content {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .single .fusion-meta-info {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .single .fusion-sharing-box {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .single .related-posts.single-related-posts {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+}
+
+/** iPad landscape **/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+    .single li.flex-active-slide {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .single h2 {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .single .post-content {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .single .fusion-meta-info {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .single .fusion-sharing-box {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .single .related-posts.single-related-posts {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+}
+
+/** BLOG POST NO SIDEBAR END **/
+
+/** MISC FONT CHANGES */
+
+body {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+    font-size: 1em !important;
+    line-height: 1.9em !important;
+}
+
+/*
+.page-blurb {
+    font-size: 17px !important;
+    font-weight: 300 !important;
+}
+*/
+
+a.continue.button.large.default {
+color: #ffffff !important;
+font-family: 'proxima-nova', Arial, Helvetica, sans-serif !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+letter-spacing: 1px !important;
+}
+
+a.continue.button.large.green {
+color: #ffffff !important;
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+letter-spacing: 1px !important;
+}
+
+.more {
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+}
+
+.dropcap {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+    color: #0097D0 !important;
+    font-weight: 900;
+}
+
+.news-list li {
+font-family: 'proxima-nova', Helvetica, sans-serif !important;
+font-size: 13 !important;
+}
+
+.post-content blockquote {
+    font-family: "proxima-nova", Georgia, serif !important;
+    background-color: transparent !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 21px;
+    line-height: 1.58em;
+}
+
+blockquote cite {
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+    color: #0097D0 !important;
+    font-style: normal !important;
+    font-size: 0.7em !important;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.vcard a {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+letter-spacing: 1px !important;
+color: #0097D0 !important;
+}
+
+.vcard a:hover {
+color: #26313B !important;
+}
+
+/*
+.fn a {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+letter-spacing: 2px !important;
+color: #0097D0 !important;
+}
+*/
+
+.fn a:hover {
+color: #26313B !important
+}
+
+.textwidget p a {
+color: #0097D0 !important;
+}
+
+.textwidget p a:hover {
+color: #26313B !important;
+}
+
+.tagcloud a {
+    font-size: 13px !important;
+    text-transform: uppercase;
+    color: #333 !important;
+    letter-spacing: 1px;
+}
+
+.tagcloud a:hover {
+    color: #fff !important;
+}
+
+.fusion-main-menu > ul > li > a {
+    font-family: "proxima-nova", Helvetica, sans-serif;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+.fusion-main-menu .sub-menu li a {
+    font-family: "proxima-nova", Helvetica, sans-serif;
+}
+
+#sticky-nav .entry-title a {
+color: #26313B !important;
+}
+
+#nav .entry-title a {
+color: #26313B !important;
+}
+
+#nav .entry-title a:hover {
+color: #0097D0 !important;
+}
+
+#sticky-nav .entry-title a:hover {
+color: #0097D0 !important;
+}
+
+.addthis_bar_message {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+}
+
+
+/* FOOTER */
+
+.footer-area a {
+text-shadow: none !important;
+}
+
+div#bacc-footer-nav {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+div#bacc-footer-nav a {
+    color: #eaeaea !important;
+}
+
+div#bacc-footer-nav a:hover {
+    color: #999999 !important;
+}
+
+#bacc-footer-logo {
+    background-image: url(bacc-logo-white-@2x.png);
+    background-size: 200px 63px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 63px;
+}
+
+#bacc-footer-area {
+    
+}
+
+#footer .fusion-social-network-icon, #sliders-container .fusion-social-network-icon {
+    border: 2px solid !important;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+/* END FOOTER
+
+
+
+/* SIDEBAR */
+
+#sidebar input.s {
+    /*background-color: #eaeaea !important;*/
+    /*border-color: transparent !important;*/
+    height: 40px !important;
+    color: #333333 !important;
+}
+
+#sidebar .search-button input[type="submit"] {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+#sidebar .recent-posts-content h4 {
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    display: block;
+    padding: 0px 10px 10px 12px;
+    border-bottom: 1px solid #e7e6e6;
+    line-height: 1.3em !important;
+}
+
+#sidebar .recent-posts-content a::before {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'icomoon';
+    content: '\f105';
+    margin-left: -12px;
+    color: #26313B !important;
+}
+
+div#sidebar-topics a {
+    color: #26313B !important;
+    font-size: 0.9em !important;
+}
+
+div#sidebar-topics a:hover {
+    color: #0097D0 !important;
+}
+
+div#sidebar-topics li {
+    margin-bottom: 10px !important;
+}
+
+#sidebar .menu a {
+    color: #26313B !important;
+}
+
+#sidebar .menu a:hover {
+    color: #0097D0 !important;
+}
+
+
+/*
+#text-21 li a {
+color: #0097D0 !important;
+}
+
+#text-21 li a:hover {
+color: #333333 !important;
+}
+
+#text-21 li {
+margin-bottom: 10px !important;
+}
+
+#text-22 a {
+color: #26313B !important;
+}
+
+#text-22 a:hover {
+color: #0097D0 !important;
+}
+
+*/
+
+/*
+#text-22 h4 {
+font-size: 1em !important;
+line-height: 1.5em !important;
+}
+*/
+
+#nav_menu-2 a {
+color: #0097D0 !important;
+}
+
+#nav_menu-2 a:hover {
+color: #333333 !important;
+}
+
+.fusion-recent-posts {
+    margin-bottom: 0px !important;
+}
+*/
+
+h4.widget-title {
+    font-size: 1.5em !important;
+}
+
+
+/* MAIL CHIMP AND FORM WIDGET/BUTTON */
+
+.footer-area input[type="submit"] {
+border: none !important;
+background: #FB6D00;
+font-weight: normal;
+color: #ffffff;
+text-transform: uppercase;
+font-size: 13px !important;
+font-weight: 600 !important;
+letter-spacing: 2px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
+/* GRAVITY FORMS */
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=email],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=tel],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=url],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=number],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=password],
+body .gform_wrapper .gform_body .gform_fields .gfield select {
+    height: 45px
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=email],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=tel],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=url],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=number],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=password],
+body .gform_wrapper .gform_body .gform_fields .gfield select,
+body .gform_wrapper .gform_body .gform_fields .gfield textarea {
+    font-size:16px;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+}
+
+label.gfield_label {
+    display: none !important;
+}
+
+body .gform_wrapper .gform_footer input[type=submit] {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+    letter-spacing: 2px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+body #gform_wrapper_4 .gform_footer input[type=submit] {
+    margin-top: 8px;
+    padding: 13px 10px 10px 15px !important;
+}
+
+body #gform_wrapper_4 .gform_body .gform_fields .gfield input[type=text] {
+    background-color: #ecf0f5 !important;
+    width: 90% !important;
+    margin-left: 6% !important;
+}
+
+
+/* END GRAVITY FORMS */
+
+
+
+.footer-area input[type="text"] {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+font-size: 1em !important;
+color: #666 !important;
+}
+
+.footer-area .yks-require-description {
+display: none !important;
+}
+
+.footer-area .yks-mailchimpFormDivRowLabel {
+font-weight: bold;
+padding-top: 15px;
+}
+
+.yks_mc_interest_group_text {
+display: none !important;
+}
+
+.sky-form-orange footer button.button {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.sky-form-orange footer button.button {
+background-color: #FB6D00;
+}
+
+.chimpy-reset.chimpy_after_posts_content {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+/* CUSTOM STYLE EDITOR */
+
+
+.scripture {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+letter-spacing: 2px !important;
+color: #0097D0 !important;
+font-style: normal !important;
+    font-size: 0.7em !important;
+}
+
+.proxima-nova-body-text {
+font-family: 'proxima-nova', Arial, Helvetica, sans-serif !important;
+}
+
+.pquote {
+float: right;
+width: 280px;
+color: #26313B;
+font-size: 1.5em !important;
+padding: 0.5em;
+margin-left: 15px;
+border-left: none !important;
+border-top: 5px solid !important;
+line-height: 1.5em !important;
+text-align: center;
+}
+
+
+/* EVENT PLUGIN HEADINGS */
+
+.dp_pec_content h2 a {
+font-weight: normal !important;
+}
+
+h2.actual_month {
+font-family: 'proxima-nova', Helvetica, Arial, sans-serif !important;
+}
+
+h1.dp_pec_event_title a {
+    color: #0097D0 !important;
+    font-weight: 700 !important;
+    font-size: 1.2em !important;
+    line-height: 1.2em !important;
+}
+
+h1.dp_pec_event_title a:hover {
+    color: #26313B !important;
+}
+
+.single-pec-events  h2.entry-title {
+display: none;
+}
+
+.fusion-events-shortcode h2 {
+    font-size: 1.3em !important;
+    line-height: 1.3em !important;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.fusion-events-shortcode h2 a {
+    color: #26313B !important;
+}
+
+.fusion-events-shortcode h2 a:hover {
+    color: #0097D0 !important;
+}
+
+.fusion-events-shortcode h4 {
+    font-size: 1em !important;
+    line-height: 1.3em !important;
+    font-weight: 400 !important;
+    text-align: center;
+}
+
+
+/* EVENT PLUGIN: OTHER */ 
+
+.post-type-archive-tribe_events .fusion-page-title-bar {
+    display: none !important;
+}
+
+.single-tribe_events .fusion-page-title-bar {
+    display: none !important;
+}
+
+span.dp_pec_date_event_time {
+color: #26313B !important;
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+font-size: 1em !important;
+margin-top: -10px !important;
+letter-spacing: 1px !important;
+}
+
+.dp_pec_event_description {
+font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+font-size: 16px !important;
+color: #0097D0 !important;
+}
+
+.dp_pec_monthly .dp_pec_wrapper {
+font-family: 'proxima-nova', Helvetica, Arial, sans-serif !important;
+color: #333333 !important;
+}
+
+.dp_pec_wrapper {
+font-family: "proxima-nova", Helvetica, sans-serif !important;
+}
+
+.single-pec-events .about-author {
+display: none;
+}
+
+.single-pec-events .single-navigation {
+display: none;
+}
+
+.single-pec-events .meta-info {
+display: none;
+}
+
+.single-pec-events .share-box {
+display: none;
+}
+
+.pec-description div {
+display: none !important;
+}
+
+span.pec_time {
+font-family: 'proxima-nova', Helvetica, Arial, sans-serif !important;
+color: #0097D0 !important;
+font-size: 13px !important;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_accordion_event .dp_pec_event_location {
+font-family: 'proxima-nova', Helvetica, Arial, sans-serif !important;
+color: #888 !important;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_accordion_event span.pec_time {
+text-transform: uppercase !important;
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+font-weight: 600 !important;
+letter-spacing: 2px;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_accordion_event .pec_description {
+display:none !important;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_accordion_event h2 a {
+background: none !important;
+}
+
+.dp_pec_accordion_wrapper .dp_pec_accordion_event {
+background: none !important;
+}
+
+.dp_pec_event_photo {
+    display: none;
+}
+
+
+/* THE EVENTS CALENDAR */
+.single-tribe_events .sidebar .tribe-events-single-section-title {
+    background-color: #0097D0;
+    color: #ffffff !important;
+}
+
+h2.tribe-events-single-event-title.summary.entry-title {
+    font-size: 2.5em !important;
+    font-weight: 700 !important;
+}
+
+span.date-start.dtstart {
+    font-weight: 400 !important;
+}
+
+span.date-end.dtend {
+    font-weight: 400 !important;
+}
+
+.fusion-events-single-title-content {
+    background-color: rgba( 0,151,208,0.85);
+}
+
+a.tribe-events-gmap {
+    text-transform: none !important;
+}
+
+span.end-time.dtend {
+    font-weight: normal;
+}
+
+span.adr {
+    font-weight: normal;
+}
+
+#tribe-events .tribe-events-list .type-tribe_events {
+    position: relative;
+}
+
+.tribe-events-cal-links {
+    display: none !important;
+}
+
+/* EVENT ESPRESSO */
+
+.ui-widget-header {
+border: none !important;
+background: none !important;
+}
+
+.event_description p {
+font-family: "proxima-nova", Helvetica, arial, sans-serif !important;
+font-size: 16px !important;
+line-height: 1.7em !important;
+color: #4E5860 !important;
+}
+
+#registration_form p {
+font-family: "proxima-nova", Helvetica, arial, sans-serif !important;
+font-size: 16px !important;
+line-height: 1.7em !important;
+color: #4E5860 !important;
+}
+
+.event_questions label {
+font-family: "proxima-nova", Helvetica, arial, sans-serif !important;
+font-size: 16px !important;
+line-height: 1.7em !important;
+color: #4E5860 !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+border: none !important;
+background: #FB6D00;
+font-weight: normal;
+color: #ffffff;
+text-transform: uppercase;
+font-size: 13px !important;
+font-weight: 600 !important;
+letter-spacing: 2px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea {
+font-family: "proxima-nova", Helvetia, Arial, sans-serif;
+color: #666;
+}
+
+.event_form_field input.ee-reg-page-text-input {
+width: 40%;
+}
+
+#single-page-checkout .spco-steps-display-hdr {
+line-height: 1em !important;
+}
+
+span.currency-code {
+display: none;
+}
+
+.ee-attention {
+border: 4px solid #07B586 !important;
+}
+
+.ee-button {
+background-color: #07B586 !important;
+}
+
+.event-content .addthis-smartlayers{
+display: none;
+}
+
+.event-content .at4-whatsnext-outer {
+display: none;
+}
+
+.event-content .chimpy-reset.chimpy_after_posts_content {
+display: none;
+}
+
+.event-content .download-iCal-frm {
+display: none;
+}
+
+.tkt-slctr-tbl {
+width: 100%;
+}
+
+/* TABLE TEXT */
+
+tr.tckt-slctr-tbl-tr {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+}
+
+.tckt-slctr-tkt-details-sctn {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+}
+
+.event-datetimes {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+}
+
+
+/*REGISTER NOW button*/
+.ticket-selector-submit-btn {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+    color: #ffffff !important;
+    border-color: #0097D0 !important;
+    border-width: 0px !important;
+    box-shadow: none !important;
+    background: #0097D0 !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    letter-spacing: 2px;
+    font-weight: 700 !important;
+    border: 0px solid !important;
+    cursor: pointer !important;
+}
+
+.ticket-selector-submit-btn:hover {
+    background: #005E82 !important;
+    color: #ffffff !important;
+    cursor: hand !important;
+}
+
+/*PROCEED TO PAYMENT OPTIONS button */
+.spco-next-step-btn {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+    color: #ffffff !important;
+    border-color: #0097D0 !important;
+    border-width: 0px !important;
+    box-shadow: none !important;
+    background: #0097D0 !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    letter-spacing: 2px;
+    padding: 15px 20px 15px 20px;
+    font-weight: 700 !important;
+    border: 0px solid !important;
+    cursor: pointer !important;
+    border-radius: 20px !Important
+}
+
+.spco-next-step-btn:hover {
+    background: #005E82 !important;
+}
+
+#menu-expo-2015 {
+text-transform: uppercase;
+font-family: "proxima-nova", Helvetica, sans-serif;
+}
+
+li#menu-item-22150 a {
+color: #790E6A !important;
+}
+
+.ee-required {
+    font-family: "proxima-nova", Helvetia, Arial !important;
+    color: #4E5860 !important;
+}
+
+/* MOBILE */
+
+@media all and (max-width: 800px) { 
+
+    .shareaholic-floated-share-buttons-container {
+        display: none !important;
+    }
+
+    .fusion-slider-container.-container {
+        display: none;
+    }
+
+    .top-menu {
+        display: none !important;
+    }
+
+    .addthis_jumbo_share {
+        display: none !important;
+    }
+
+    .post-content h3 {
+        line-height: 1.25em !important;
+    }
+    
+    .fusion-page-title-bar h1 {
+        font-size: 2em !important;
+    }
+    
+    .fusion-page-title-bar h3 {
+        font-size: 1em !important;
+    }
+    
+    .fusion-header-wrapper {
+        position: relative !important;
+    }
+    /*
+    #main .single {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    */
+    
+    .single h2 {
+        font-size: 2em !important;
+    }
+    
+    .at4-jumboshare {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 3em !important;
+    }
+    
+    h2.tribe-events-single-event-title.summary.entry-title {
+        font-size: 1.25em !important;
+        font-weight: 700 !important;
+    }
+    
+    body .fusion-content-boxes .heading .heading-link:hover .content-box-heading {
+        color: #0097d0 !important;
+        
+    }
+    
+    .slider-subtitle {
+        display: none !important;
+    }
+    
+    .slider-sub-heading {
+        font-size: .8em !important;
+        letter-spacing: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    
+    .tfs-slider .slide-content-container .heading {
+        margin: 0px !important;
+    }
+    
+    .tfs-slider .flex-control-nav {
+        bottom: -15px !important; 
+    }
+
+
+}
+  
+/* END MOBILE */
+
+.single-espresso_events #at-share-dock {
+display: none !important;
+}
+
+
+/* BUTTONS */
+
+
+.button-round {
+    border-radius: 7px !important;
+    border-color: transparent !important;
+}
+
+
+.custom-button-blue {
+background-color: #FB6D00 !important;
+}
+
+.fusion-button {
+    font-family: "proxima-nova", Helvetica, Arial !important;
+    letter-spacing: 2px !important;
+    font-size: 13px !important;
+    font-weight: 600;
+}
+
+
+.full-width-section-button {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em !important;
+}
+
+
+/* REVOLUTION SLIDER */
+
+.WebProduct-Button:hover {
+    background-color: #005E82 !important;
+    color: #ffffff !important;
+    transition: background-color 0.5s ease !important;
+}
+
+
+/* MISC: OTHER */
+
+#snav.menu {
+font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+font-weight: 600 !important;
+}
+
+#snav.menu a:hover {
+color: #8CBFDA !important;
+}
+
+.col-content-container {
+font-size: 14px !important;
+}
+
+.col-content-container a {
+color: #479ABF !important;
+}
+
+.col-content-container a:hover {
+color: ##3e433e !important;
+}
+
+.no-comments {
+display: none;
+}
+
+#wrapper .fullwidth-box {
+background-size: cover !important;
+}
+
+.reading-box p {
+font-family: "proxima-nova", helvetica, arial, sans-serif !important;
+}
+
+.home #footer {
+  margin-bottom: -40px !important;
+}
+
+.jig-caption-title {
+font-family: 'proxima-nova', Helvetica, arial !important;
+}
+
+.msg {
+font-family: 'proxima-nova', Helvetica, arial !important;
+}
+
+.addthis_jumbo_share {
+margin-bottom: 20px;
+}
+
+.addthis_responsive_sharing a {
+color: #ffffff !important;
+}
+
+.fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] { 
+width: 100% !important; 
+}
+
+::selection {
+color: #ffffff;
+background: #FB6D00;
+}
+
+.fusion-megamenu-title {
+    font-size: 1.25em !important;
+    font-weight: 300;
+    letter-spacing: -0.045em;
+}
+
+.single .fusion-column.column.col.col-lg-12.col-md-12.col-sm-12 {
+    margin: 0px !important;
+}
+
+/* WPML */
+div#icl_lang_sel_widget-1 {
+    margin: 5px 0 5px 0;
+    padding: 0 1.5em 1.5em;
+}
+
+.fusion-carousel .fusion-carousel-wrapper {
+    padding: 0px !important;
+}
+
+.fusion-image-carousel {
+  margin-bottom: 0px;
+}
+
+.fusion-carousel .fusion-carousel-item .fusion-carousel-item-wrapper {
+    display: inherit;
+}
+
+#blog-hero-search input[type="submit"] {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: #0097D0 !important;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#blog-hero-search input[type="submit"]:hover {
+    background-color: #005E82 !important;
+}
+
+.callout-medium {
+    font-size: 1.5em !important;
+    font-weight: 300 !important;
+    line-height: 1.4em !important;
+}
+
+.callout-medium-white {
+    font-size: 1.5em !important;
+    font-weight: 300 !important;
+    line-height: 1.4em !important;
+    color: #ffffff !important;
+}
+
+ul.side-nav a {
+    font-family: "proxima-nova", Helvetica, sans-serif !important;
+}
+
+a.flex-active {
+    background-color: #ffffff !important;
+}
